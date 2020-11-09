@@ -10,7 +10,7 @@ As [StatisticalRethinking](https://github.com/StatisticalRethinkingJulia) v3 wil
 
 # Usage
 
-To (locally) reproduce this [project](https://github.com/StatisticalRethinkingJulia/StatisticsWithJuliaPlutoNotebooks.j), do the following:
+To (locally) reproduce this [project](https://github.com/StatisticalRethinkingJulia/StatisticsWithJuliaPlutoNotebooks.jl), do the following:
 
 To (locally) reproduce and use this project, do the following:
 
