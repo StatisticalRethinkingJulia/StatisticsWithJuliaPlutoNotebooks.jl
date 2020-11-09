@@ -6,11 +6,11 @@ to make a reproducible scientific project named
 
 The code base is directly derived from a upcoming book [Statistics with Julia](https://statisticswithjulia.org/index.html) by Yoni Nazarathy and Hayden Klok. 
 
-For a good while I have been looking for a great introductory statistics book using Julia as aan introductory text to StatisticalRethinking and I believe this book is exactly that.
+For a good while I have been looking for a great statistics book using Julia as an introductory text to StatisticalRethinking and I believe this book is exactly that.
 
-As [StatisticalRethinking](https://github.com/StatisticalRethinkingJulia) version 3 will use Pluto notebooks and is based on Julia projects (e.g. [StatisticalRethinkingStan](https://github.com/StatisticalRethinkingJulia/StatisticalRethinkingStan.jl) and [StatisticalRethinkingTuring](https://github.com/StatisticalRethinkingJulia/StatisticalRethinkingTuring.jl)), I have converted the first 3 chapters to Pluto Notebooks.
+As [StatisticalRethinking](https://github.com/StatisticalRethinkingJulia) v3 will use Pluto notebooks, I have converted the first 3 chapters to Pluto Notebooks. StatisticalRethinking v3 is also based on Julia projects (e.g. [StatisticalRethinkingStan](https://github.com/StatisticalRethinkingJulia/StatisticalRethinkingStan.jl) and [StatisticalRethinkingTuring](https://github.com/StatisticalRethinkingJulia/StatisticalRethinkingTuring.jl)).
 
-To (locally) reproduce this [project](https://github.com/StatisticalRethinkingJulia/StatisticsWithJuliaPlutoNotebooks.jl), do the following:
+To (locally) reproduce this [project](https://github.com/StatisticalRethinkingJulia/StatisticsWithJuliaPlutoNotebooks.j), do the following:
 
 To (locally) reproduce and use this project, do the following:
 
