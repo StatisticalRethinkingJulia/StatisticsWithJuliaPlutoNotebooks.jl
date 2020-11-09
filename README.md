@@ -8,7 +8,9 @@ The code base is directly derived from a upcoming book [Statistics with Julia](h
 
 For a good while I have been looking for a great statistics book using Julia as an introductory text to StatisticalRethinking and I believe this book is exactly that.
 
-As [StatisticalRethinking](https://github.com/StatisticalRethinkingJulia) v3 will use Pluto notebooks, I have converted the first 3 chapters to Pluto Notebooks. StatisticalRethinking v3 is also based on Julia projects (e.g. [StatisticalRethinkingStan](https://github.com/StatisticalRethinkingJulia/StatisticalRethinkingStan.jl) and [StatisticalRethinkingTuring](https://github.com/StatisticalRethinkingJulia/StatisticalRethinkingTuring.jl)).
+As [StatisticalRethinking](https://github.com/StatisticalRethinkingJulia) v3 will use Pluto notebooks, I have initially converted the listings in the first 3 chapters to Pluto Notebooks as a proof of concept.
+
+StatisticalRethinking v3 will also be based on Julia projects (e.g. [StatisticalRethinkingStan](https://github.com/StatisticalRethinkingJulia/StatisticalRethinkingStan.jl) and [StatisticalRethinkingTuring](https://github.com/StatisticalRethinkingJulia/StatisticalRethinkingTuring.jl)). 
 
 To (locally) reproduce this [project](https://github.com/StatisticalRethinkingJulia/StatisticsWithJuliaPlutoNotebooks.j), do the following:
 
