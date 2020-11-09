@@ -10,34 +10,42 @@ using Pkg, DrWatson
 # ╔═╡ 6ffe2628-1ea1-11eb-24ea-57f985146a72
 begin
 	@quickactivate "StatisticsWithJulisPlutoNotebooks"
-	using Distributions, Random, StatsBase, DataFrames, Plots
-	Random.seed!(1)
+	using DataFrames
+	using HCubature
 end;
 
 # ╔═╡ ed174bc4-1ea0-11eb-1e2f-a32874cec549
-md"## Listing 3.29"
+md"## Listing 3.33"
 
 # ╔═╡ 70179b62-1ea1-11eb-13ce-7fb4d54bad4b
-Z() = sqrt(-2*log(rand()))*cos(2*pi*rand())
-
-# ╔═╡ 0000b90c-21c2-11eb-2426-fdbaf4727f0c
 begin
-	xGrid = -4:0.01:4
+	M = 4.5
+	maxD = 10
+end
 
-	histogram([Z() for _ in 1:10^6], bins=50, 
-			normed=true, label="MC estimate")
-	plot!(xGrid, pdf.(Normal(),xGrid), 
-		 c=:red, lw=4, label="PDF", 
-		 xlims=(-4,4), ylims=(0,0.5), xlabel="x", ylabel="f(x)")
+# ╔═╡ dde25fec-228e-11eb-2ec8-099e48158d12
+f(x) = (2*pi)^(-length(x)/2) * exp(-(1/2)*x'x)
+
+# ╔═╡ dde2935e-228e-11eb-3074-f3bddb5149fc
+begin
+	df = DataFrame()
+	for n in 1:maxD
+    	a = -M*ones(n)
+    	b = M*ones(n)
+    	I,e = hcubature(f, a, b, maxevals = 10^7)
+    append!(df, DataFrame(:n => n, :integral => I, :error => e))
+	end
+	df
 end
 
 # ╔═╡ 70182cd8-1ea1-11eb-094d-8d0d49cf15f3
-md"## End of listing 3.29"
+md"## End of listing 3.33"
 
 # ╔═╡ Cell order:
 # ╟─ed174bc4-1ea0-11eb-1e2f-a32874cec549
 # ╠═6fd616f6-1ea1-11eb-3814-8bfb4a096c49
 # ╠═6ffe2628-1ea1-11eb-24ea-57f985146a72
 # ╠═70179b62-1ea1-11eb-13ce-7fb4d54bad4b
-# ╠═0000b90c-21c2-11eb-2426-fdbaf4727f0c
+# ╠═dde25fec-228e-11eb-2ec8-099e48158d12
+# ╠═dde2935e-228e-11eb-3074-f3bddb5149fc
 # ╟─70182cd8-1ea1-11eb-094d-8d0d49cf15f3
