@@ -6,9 +6,9 @@ The code base is directly derived from an upcoming book [Statistics with Julia](
 
 For a good while I have been looking for a great statistics book using Julia as an introductory text to StatisticalRethinking and I believe the first three chapters of this book are exactly that.
 
-As [StatisticalRethinking](https://github.com/StatisticalRethinkingJulia) v3 will be based on projects (e.g. [StatisticalRethinkingStan](https://github.com/StatisticalRethinkingJulia/StatisticalRethinkingStan.jl) or [StatisticalRethinkingTuring](https://github.com/StatisticalRethinkingJulia/StatisticalRethinkingTuring.jl)) and use [Pluto](https://github.com/fonsp/Pluto.jl) notebooks, I have converted the book's `listings` in the first 3 chapters to Pluto Notebooks. Clearly, Julia code and statistical explanations are only available in the `Statistics With Julia` book.
+As [StatisticalRethinking](https://github.com/StatisticalRethinkingJulia) v3 will be based on projects (e.g. [StatisticalRethinkingStan](https://github.com/StatisticalRethinkingJulia/StatisticalRethinkingStan.jl) or [StatisticalRethinkingTuring](https://github.com/StatisticalRethinkingJulia/StatisticalRethinkingTuring.jl)) and use [Pluto](https://github.com/fonsp/Pluto.jl) notebooks, I have converted the book's `listings` in the first 4 chapters to Pluto Notebooks. Clearly, Julia code and statistical explanations are only available in the `Statistics With Julia` book.
 
-From chapter 4 onwards, `Statistical Rethinking` follows the Bayesian approach while `Statistics With Julia` opts mostly for the frequentionist view (see section 5.7). The corresponding material in chapters 4 and 5 of `Statistics With Julia` is covered in notebooks in the early chapters of the
+From chapter 4 onwards, `Statistical Rethinking` follows the Bayesian approach while `Statistics With Julia` opts mostly for the frequentionist view (see section 5.7). The corresponding material in chapters 5 and 6 of `Statistics With Julia` is covered in notebooks in the early chapters of the
 StatisticalRethinkingStan and StatisticalRethinkingTuring projects.
 
 # Usage
