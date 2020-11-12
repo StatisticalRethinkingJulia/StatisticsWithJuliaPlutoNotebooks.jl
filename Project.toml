@@ -48,4 +48,4 @@ StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
 TimeSeries = "9e3dc215-6440-5c97-bce1-76c03772f85e"
 
 [compat]
-julia = "1.6.0"
+julia = "1"
