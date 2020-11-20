@@ -10,7 +10,7 @@ using Pkg, DrWatson
 # ╔═╡ e75a9a06-22e5-11eb-2e36-8d4f62b830ed
 begin
 	@quickactivate "StatisticsWithJuliaPlutoNotebooks"
-	using CSV, CategoricalArrays, Plots
+	using CSV, CategoricalArrays, Plots, DataFrames
 end
 
 # ╔═╡ ca5fbdc8-22e5-11eb-0a60-cb0a127a3ca5
@@ -18,7 +18,7 @@ md"## Listing4.29"
 
 # ╔═╡ fa68607e-22e5-11eb-0558-c9a4d9f77426
 begin
-	df = CSV.read(datadir("companyData.csv"))
+	df = CSV.read(datadir("companyData.csv"), DataFrame)
 	mktCap = reshape(df.MarketCap, 5, 3)
 	years  = levels(df.Year)
 end

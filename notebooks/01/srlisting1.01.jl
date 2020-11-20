@@ -20,7 +20,7 @@ using Pkg, DrWatson
 begin
 	@quickactivate "StatisticsWithJulisPlutoNotebooks"
 	using PlutoUI
-	using Plots
+	using StatisticalRethinking
 end
 
 # ╔═╡ bc93b1e6-1d0d-11eb-3a1b-cf047fc8d621

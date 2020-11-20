@@ -10,7 +10,7 @@ using Pkg, DrWatson
 # ╔═╡ e75a9a06-22e5-11eb-2e36-8d4f62b830ed
 begin
 	@quickactivate "StatisticsWithJuliaPlutoNotebooks"
-	using Statistics, StatsBase, LinearAlgebra, DataFrames, CSV
+	using StatisticalRethinking
 end
 
 # ╔═╡ ca5fbdc8-22e5-11eb-0a60-cb0a127a3ca5
@@ -52,13 +52,16 @@ xbarB
 xbarC
 
 # ╔═╡ 57f48b98-24f6-11eb-1921-ad00e4113d88
-md"##### Y is the de-meaned data: "
+md"##### Y is the de-meaned (centered) data: "
 
 # ╔═╡ aecba394-24f5-11eb-12ab-7b59ea17225a
 begin
 	Y = (I-ones(n,n)/n)*X
 	mean(Y,dims=1)
 end
+
+# ╔═╡ 931e32be-2681-11eb-131c-690af2ec449d
+std(Y, dims=1)
 
 # ╔═╡ aedb2ff8-24f5-11eb-043b-3fb4f93ab76a
 md"##### Alternative calculations of (sample) covariance matrix: "
@@ -117,6 +120,7 @@ md"## End of listing4.13"
 # ╠═293c6654-24f6-11eb-0427-6b6b5fcb5f21
 # ╟─57f48b98-24f6-11eb-1921-ad00e4113d88
 # ╠═aecba394-24f5-11eb-12ab-7b59ea17225a
+# ╠═931e32be-2681-11eb-131c-690af2ec449d
 # ╟─aedb2ff8-24f5-11eb-043b-3fb4f93ab76a
 # ╠═aedbd20c-24f5-11eb-0ef7-2de4a0bdca69
 # ╟─aee78048-24f5-11eb-0307-cd8e720569c3
