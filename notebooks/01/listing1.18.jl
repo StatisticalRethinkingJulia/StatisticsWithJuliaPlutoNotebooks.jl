@@ -13,7 +13,7 @@ begin
 		using CSV, DataFrames, RCall
 end
 
-# ╔═╡ 4797782a-1e0a-11eb-29ed-0d9532aae5f7
+# ╔═╡ 4797782a-1e0a-11eb-29ed-0d9532aae5f7]
 md"## Listing 1.18"
 
 # ╔═╡ a9cfe2b6-1e0a-11eb-16bc-d93718b84f9e
