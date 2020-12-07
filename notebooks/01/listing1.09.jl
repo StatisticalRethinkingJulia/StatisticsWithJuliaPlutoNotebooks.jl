@@ -9,7 +9,7 @@ using Pkg, DrWatson
 
 # ╔═╡ 546a5c04-1d68-11eb-23bb-cb5d47d9db43
 begin
-	@quickactivate "StatisticsWithJulisPlutoNotebooks"
+	@quickactivate "StatisticsWithJuliaPlutoNotebooks"
 	using HTTP, JSON
 end
 
@@ -28,7 +28,7 @@ end
 begin
 	jsonWords = HTTP.request("GET",
 		"https://raw.githubusercontent.com/"*
-		"h-Klok/StatisticsWithJulisPlutoNotebooks/master/data/jsonCode.json")
+		"h-Klok/StatisticsWithJuliaPlutoNotebooks/master/data/jsonCode.json")
 	parsedJsonDict = JSON.parse( String(jsonWords.body))
 end
 

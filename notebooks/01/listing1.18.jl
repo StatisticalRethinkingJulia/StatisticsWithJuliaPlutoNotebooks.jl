@@ -9,7 +9,7 @@ using Pkg, DrWatson
 
 # ╔═╡ a9cf7986-1e0a-11eb-3780-5526346e75dd
 begin
-		@quickactivate "StatisticsWithJulisPlutoNotebooks"
+		@quickactivate "StatisticsWithJuliaPlutoNotebooks"
 		using CSV, DataFrames, RCall
 end
 

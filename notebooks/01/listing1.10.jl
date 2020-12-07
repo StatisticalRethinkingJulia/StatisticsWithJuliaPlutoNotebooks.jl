@@ -9,7 +9,7 @@ using Pkg, DrWatson
 
 # ╔═╡ acd82a8c-1d69-11eb-10c9-0902b833d79e
 begin
-	@quickactivate "StatisticsWithJulisPlutoNotebooks"
+	@quickactivate "StatisticsWithJuliaPlutoNotebooks"
 	using Plots, LaTeXStrings, Measures
 end
 

@@ -9,7 +9,7 @@ using Pkg, DrWatson
 
 # ╔═╡ f2935b8a-1d66-11eb-02e8-3dacec840928
 begin
-	@quickactivate "StatisticsWithJulisPlutoNotebooks"
+	@quickactivate "StatisticsWithJuliaPlutoNotebooks"
 	using LinearAlgebra, StatsBase, DataFrames
 end
 

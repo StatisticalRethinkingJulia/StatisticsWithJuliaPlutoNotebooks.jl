@@ -9,7 +9,7 @@ using Pkg, DrWatson
 
 # ╔═╡ 61f78d42-1d31-11eb-31f1-63eb86dabf9f
 begin
-	@quickactivate "StatisticsWithJulisPlutoNotebooks"
+	@quickactivate "StatisticsWithJuliaPlutoNotebooks"
 	using Statistics
 end
 

@@ -9,7 +9,7 @@ using Pkg, DrWatson
 
 # ╔═╡ 6ffe2628-1ea1-11eb-24ea-57f985146a72
 begin
-	@quickactivate "StatisticsWithJulisPlutoNotebooks"
+	@quickactivate "StatisticsWithJuliaPlutoNotebooks"
 	using Distributions, Random, StatsBase, DataFrames, Plots
 	Random.seed!(1)
 	include(datadir("mvParams.jl"))

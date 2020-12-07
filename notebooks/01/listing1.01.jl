@@ -18,7 +18,7 @@ using Pkg, DrWatson
 
 # ╔═╡ 0a7776e0-1d0e-11eb-2a05-795e2470b260
 begin
-	@quickactivate "StatisticsWithJulisPlutoNotebooks"
+	@quickactivate "StatisticsWithJuliaPlutoNotebooks"
 	using PlutoUI
 	using Plots
 end

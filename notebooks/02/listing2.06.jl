@@ -12,7 +12,7 @@ md"## Listing 2.6"
 
 # ╔═╡ 8fce84c2-1ee5-11eb-38fc-9f2c2720cb71
 begin
-	@quickactivate "StatisticsWithJulisPlutoNotebooks"
+	@quickactivate "StatisticsWithJuliaPlutoNotebooks"
 end
 
 
