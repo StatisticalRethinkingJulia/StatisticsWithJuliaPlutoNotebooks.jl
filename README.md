@@ -13,8 +13,6 @@ StatisticalRethinkingStan and StatisticalRethinkingTuring projects.
 
 # Usage
 
-To (locally) reproduce this project, do the following:
-
 To (locally) reproduce and use this project, do the following:
 
 1. Download above project from Github, e.g.:
