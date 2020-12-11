@@ -18,9 +18,9 @@ md"## Listing 1.18"
 
 # ╔═╡ a9cfe2b6-1e0a-11eb-16bc-d93718b84f9e
 begin
-	data1 = CSV.read(datadir("machine1.csv"); header=false)[:, 1]
-	data2 = CSV.read(datadir("machine2.csv"); header=false)[:, 1]
-	data3 = CSV.read(datadir("machine3.csv"); header=false)[:, 1]
+	data1 = CSV.read(datadir("machine1.csv"), DataFrame; header=false)[:, 1]
+	data2 = CSV.read(datadir("machine2.csv"), DataFrame; header=false)[:, 1]
+	data3 = CSV.read(datadir("machine3.csv"), DataFrame; header=false)[:, 1]
 end
 
 # ╔═╡ a9d99344-1e0a-11eb-33bb-6bda4554471c
