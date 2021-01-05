@@ -26,9 +26,9 @@ version = "0.3.3"
 
 [[Adapt]]
 deps = ["LinearAlgebra"]
-git-tree-sha1 = "42c42f2221906892ceb765dbcb1a51deeffd86d7"
+git-tree-sha1 = "345a14764e43fe927d6f5c250fe4c8e4664e6ee8"
 uuid = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-version = "2.3.0"
+version = "2.4.0"
 
 [[ArgCheck]]
 git-tree-sha1 = "dedbbb2ddb876f899585c4ec4433265e3017215a"
@@ -58,9 +58,9 @@ version = "3.5.0+3"
 
 [[ArrayInterface]]
 deps = ["LinearAlgebra", "Requires", "SparseArrays"]
-git-tree-sha1 = "b6ea8a312b6747ffcf46e1200d91b19d2e1dc1d6"
+git-tree-sha1 = "a0c202d58f0f99156bd77972fe75ae8498fd9f4b"
 uuid = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
-version = "2.14.12"
+version = "2.14.13"
 
 [[ArrayLayouts]]
 deps = ["Compat", "FillArrays", "LinearAlgebra", "SparseArrays"]
@@ -939,9 +939,9 @@ version = "0.5.0"
 
 [[LLVM]]
 deps = ["CEnum", "Libdl", "Printf", "Unicode"]
-git-tree-sha1 = "a2101830a761d592b113129887fda626387f68d4"
+git-tree-sha1 = "d0d99629d6ae4a3e211ae83d8870907bd842c811"
 uuid = "929cbde3-209d-540e-8aea-75f648917ca0"
-version = "3.5.1"
+version = "3.5.2"
 
 [[LZO_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -1108,9 +1108,9 @@ version = "0.5.3"
 
 [[MLJModelInterface]]
 deps = ["Random", "ScientificTypes"]
-git-tree-sha1 = "a63e200c4d8bfb3820db9849cc1950a91ddad761"
+git-tree-sha1 = "6ac897581ef6e949cf3a4ca28f7bcee4674538e7"
 uuid = "e80e1ace-859a-464e-9ed9-23947d8ae3ea"
-version = "0.3.6"
+version = "0.3.7"
 
 [[MacroTools]]
 deps = ["Markdown", "Random"]
@@ -1227,10 +1227,10 @@ uuid = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 version = "4.5.1"
 
 [[NNlib]]
-deps = ["Compat", "Libdl", "LinearAlgebra", "Pkg", "Requires", "Statistics"]
-git-tree-sha1 = "2b7c3213ed4f2eed686f9f531f85d3ea2f75286f"
+deps = ["ChainRulesCore", "LinearAlgebra", "Pkg", "Requires", "Statistics"]
+git-tree-sha1 = "6af947f07c12f7c2f965b3145208b7b0df03bb34"
 uuid = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
-version = "0.7.9"
+version = "0.7.10"
 
 [[NaNMath]]
 git-tree-sha1 = "bfe47e760d60b82b66b61d2d44128b62e3a369fb"
@@ -1281,9 +1281,9 @@ version = "0.3.3"
 
 [[OffsetArrays]]
 deps = ["Adapt"]
-git-tree-sha1 = "b0cc1c42b63e30b759f4e1cf045ad8a51069d6cc"
+git-tree-sha1 = "5b644e46f71e744fac0775b885809fd82c4ca904"
 uuid = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
-version = "1.4.2"
+version = "1.5.0"
 
 [[Ogg_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -1705,10 +1705,10 @@ uuid = "90137ffa-7385-5640-81b9-e52037218182"
 version = "0.12.5"
 
 [[StatisticalRethinking]]
-deps = ["AxisArrays", "BSplines", "CSV", "DataFrames", "Distributions", "DocStringExtensions", "Formatting", "GLM", "KernelDensity", "LaTeXStrings", "LinearAlgebra", "MCMCChains", "MonteCarloMeasurements", "NamedArrays", "NamedTupleTools", "Optim", "Parameters", "PrettyTables", "Random", "Reexport", "Requires", "Statistics", "StatsBase", "StatsFuns", "StatsPlots", "StructuralCausalModels", "Test", "Unicode"]
-git-tree-sha1 = "2cd7c60ce2aaecb5dfb12818e1181442accf6d33"
+deps = ["AxisArrays", "BSplines", "CSV", "DataFrames", "Distributions", "DocStringExtensions", "Formatting", "GLM", "KernelDensity", "LaTeXStrings", "LinearAlgebra", "MCMCChains", "MonteCarloMeasurements", "NamedArrays", "NamedTupleTools", "Optim", "OrderedCollections", "Parameters", "PrettyTables", "Random", "Reexport", "Requires", "Statistics", "StatsBase", "StatsFuns", "StatsPlots", "StructuralCausalModels", "Test", "Unicode"]
+git-tree-sha1 = "3e0325ddfc70c9227fe4859613761613ac8e4b54"
 uuid = "2d09df54-9d0f-5258-8220-54c2a3d4fbee"
-version = "3.1.8"
+version = "3.1.9"
 
 [[Statistics]]
 deps = ["LinearAlgebra", "SparseArrays"]
@@ -1867,9 +1867,9 @@ version = "0.9.5"
 
 [[Transducers]]
 deps = ["ArgCheck", "BangBang", "CompositionsBase", "DefineSingletons", "Distributed", "InitialValues", "Logging", "Markdown", "MicroCollections", "Requires", "Setfield", "SplittablesBase", "Tables"]
-git-tree-sha1 = "80f9fad2026c304f391198d391a0c698b666b201"
+git-tree-sha1 = "266420fe31e9c86abcf0d4905c75b67dac087c33"
 uuid = "28d57a85-8fef-5791-bfe6-a80928e7c999"
-version = "0.4.53"
+version = "0.4.54"
 
 [[TreeViews]]
 deps = ["Test"]
