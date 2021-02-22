@@ -3,11 +3,14 @@
 ################################################################################
 
 # Folders to ignore - files may be too large, too many, etc. NOTE: EDIT IF NEEDED.
-#data
+data
 videos
 plots
+models
+scripts
 #notebooks
-_research
+research
+#test - Ultimately will contain a set of test notebooks.
 
 ################################################################################
 #                                    Julia                                     #
