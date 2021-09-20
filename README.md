@@ -13,6 +13,8 @@ StatisticalRethinkingStan and StatisticalRethinkingTuring projects.
 
 # Usage
 
+Note: A few scripts in chapter 4 will require R to be installed. See [here](https://www.r-project.org/about.html).
+
 To (locally) reproduce and use this project, do the following:
 
 1. Download above project from Github, e.g.:
