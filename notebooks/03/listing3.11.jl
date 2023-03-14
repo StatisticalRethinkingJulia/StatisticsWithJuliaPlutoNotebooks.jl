@@ -35,17 +35,17 @@ begin
 end
 
 # ╔═╡ de66cfee-2134-11eb-2c7a-add4bee67341
-density(data1, lab="Triangukar density")
+density(data1, lab="Triangular density")
 
 # ╔═╡ a315bbee-2134-11eb-0249-17f3c6af3543
 density!(data2, lab="Discrete Uniform density")
 
 # ╔═╡ 75cedfbc-2134-11eb-3b3c-5bdc69e4735a
-Text("Symmetric Triangular Distiribution on [0,10] has mean $theorMean1
+Text("Symmetric Triangular Distribution on [0,10] has mean $theorMean1
 	(estimated: $estMean1)")
 
 # ╔═╡ 75cf627a-2134-11eb-0dc9-e5e3d869f4a8
-Text("Discrete Uniform Distiribution on {1,2,3,4,5} has mean $theorMean2
+Text("Discrete Uniform Distribution on {1,2,3,4,5} has mean $theorMean2
 	(estimated: $estMean2)")
 
 # ╔═╡ 70182cd8-1ea1-11eb-094d-8d0d49cf15f3
