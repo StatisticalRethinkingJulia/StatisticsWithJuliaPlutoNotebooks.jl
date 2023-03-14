@@ -16,7 +16,7 @@ $ julia
 and in the Julia REPL:
 
 ```
-julia> ]                                                # Actvate Pkg mode
+julia> ]                                                # Activate Pkg mode
 (@v1.5) pkg> activate .                                 # Activate pkg in .
 (StatisticsWithJuliaPlutoNotebooks) pkg> instantiate    # Install in pkg environment
 (StatisticsWithJuliaPlutoNotebooks) pkg> <delete>       # Exit package mode

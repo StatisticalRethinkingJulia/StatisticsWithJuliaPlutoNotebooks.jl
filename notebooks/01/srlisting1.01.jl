@@ -94,7 +94,7 @@ md"##### Another important concept in Julia is `broadcasting` over an Array:"
 sqrt.(squares)
 
 # ╔═╡ aca76098-1d35-11eb-1cf3-1b68437e17f7
-md"##### Finally, the most tricky difference between the Julia REPL and other notebook formats is the reactivity of Pluto. It's cool, but also prevents multiple definitions across cells. If this happens, Pluto will suggest to bracket the assigments in a single cell with `begin` and `end`"
+md"##### Finally, the most tricky difference between the Julia REPL and other notebook formats is the reactivity of Pluto. It's cool, but also prevents multiple definitions across cells. If this happens, Pluto will suggest to bracket the assignments in a single cell with `begin` and `end`"
 
 # ╔═╡ 01420810-1d36-11eb-1846-b579d2238fcc
 begin
